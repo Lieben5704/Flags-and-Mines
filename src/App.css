@@ -1,0 +1,245 @@
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+  background-color: #424242;
+}
+
+/* Home */
+.home {
+  display: flex;
+  justify-content: center;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+
+}
+
+.home h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.home-menu {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* Header */
+h1 {
+  margin-left: 50px;
+  color: white;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  border-bottom: 1px solid #e9e1e1;
+}
+
+/* Menu */
+.menu {
+  float: right;
+  justify-content: center;
+  margin-right: 30px;
+  
+}
+
+.btn{
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.btn-primary{
+  background-color: crimson;
+  border: crimson;
+  padding: 10px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.menu li {
+  display: inline;
+  margin: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Main Game */
+.Game {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  padding: 25px;
+}
+
+.MainGame {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 550px;
+  height: 600px;
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-bottom: 30px;
+  padding: 25px;
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+.MainGame div:hover {
+  border: 2px solid crimson;
+}
+
+.normalBlock {
+  background-color: #dddddd;
+  
+}
+
+.uncovered {
+  background-color: white;
+
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border: 1px solid #413e3e;
+  border-radius: 15px;
+}
+
+/* Flags, mines and hints*/
+.flag {
+  width: 25px;
+}
+
+.mine {
+  width: 25px;
+}
+
+.num1 {
+  width: 30px;
+}
+
+.num2 {
+  width: 30px;
+}
+
+/* Scoreboard */
+.scoreAndRestart {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.scoreAndRestart .restartButton {
+  margin-top: 16px;
+  margin-left: 625px;
+  background-color: crimson;
+  width: 200px;
+}
+
+.scoreAndRestart .restartButton:hover{
+  margin-top: 16px;
+  margin-left: 625px;
+  width: 200px;
+  background-color: grey;
+}
+
+.scoreboard {
+  margin-left: 600px;
+  margin-right: 16px;
+  margin-top: -30px;
+  min-width: 240px;
+  height: 800px;
+  background-color:#1b1b1b;
+  
+  
+}
+
+.innerBoard {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  height: 780px;
+  color: white;
+}
+
+.scoreboard h2 {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.gameResult {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 600px;
+  top: 300px;
+  max-width: 800px;
+  background-color: white;
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+/* Gmae over message */
+.lost {
+  font-size: 100px;
+  color: grey;
+}
+
+/* Won message */
+.won {
+  font-size: 100px;
+  color: green;
+}
+
+/* Restart Button */
+.restartButton {
+  width: 200px;
+  background-color: crimson;
+  border: #413e3e;
+
+}
+
+
+/* Help page */
+.help {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  color: white;
+}
