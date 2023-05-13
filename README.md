@@ -1,4 +1,4 @@
-# L2T12-Capstone_Flags_and_Mines
+# Flags and Mines (MineSweeper Game)
 
 ### 1. Project Description
 
