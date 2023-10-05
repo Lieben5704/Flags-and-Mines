@@ -27,7 +27,7 @@ On this page you will find **rules on how the game is played and how you can win
 
 In your **terminal**, use the following command to download the repository content:
 
-**git clone https://github.com/Lieben5704/L2T12-Capstone_Flags_and_Mines.git**
+**git clone https://github.com/Lieben5704/Flags-and-Mines.git**
 
 OR alternatively you can download the ZIP file
 
